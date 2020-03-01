@@ -1,0 +1,263 @@
+\documentclass[a4paper, 12pt]{article}
+ 
+\usepackage[portuges]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{multicol,lipsum}
+\usepackage{design_ASC}
+\usepackage{enumitem}
+
+\setlength\parindent{0pt}
+\title{Fundamentos de Matemática} 
+\author{Marcos Cordeiro de B. Jr\\ 
+PPGEEC - Programa de Pós Graduação em Engenharia Elétrica e Computação\\
+\textsc{\textbf{Universidade Presbiteriana Mackenzie}}
+}
+\date{Março de 2020} 
+
+
+\begin{document}
+  
+\setlength{\droptitle}{-5em}    
+\maketitle
+
+\section*{Questão 1 - Multiplicação de Matrizes}
+  {\bfseries Efetue a multiplicação entre as matriz $A = 
+  \begin{bmatrix}
+    1 & 2 \\
+    0 & 1
+  \end{bmatrix}$ 
+  e $B = 
+  \begin{bmatrix}
+    4 & -1 \\
+    5 & 0
+  \end{bmatrix}$ 
+  e verifique se a propriedade comutativa é válida. }
+
+  \section*{Resposta}
+  Multiplicação das Matrizes $A \cdot B$:
+  \begin{center}
+    $A \cdot B = 
+    \begin{bmatrix}
+      1 & 2 \\
+      0 & 1
+    \end{bmatrix} 
+    \cdot
+    \begin{bmatrix}
+      4 & -1 \\
+      5 & 0
+    \end{bmatrix}$
+
+    $A \cdot B = 
+    \begin{bmatrix}
+      1 \cdot 4 + 2 \cdot 5 & 1 \cdot (-1) + 2 \cdot 0 \\
+      0 \cdot 4 + 1 \cdot 5 & 0 \cdot (-1) + 1 \cdot 0 
+    \end{bmatrix}$
+
+    $A \cdot B = 
+      \begin{bmatrix}
+        14 & -1 \\
+        5 & 0
+      \end{bmatrix}$
+  \end{center}
+
+Multiplicação das Matrizes $B \cdot A$:
+\begin{center}
+  $B \cdot A =
+    \begin{bmatrix}
+      4 & -1\\
+      5 & 0
+    \end{bmatrix}
+    \cdot
+    \begin{bmatrix}
+      1 & 2 \\
+      0 & 1
+    \end{bmatrix}$
+
+    $B \cdot A =
+    \begin{bmatrix}
+      4 \cdot 1 + (-1) \cdot 0 & 4 \cdot 2 + (-1) \cdot 1 \\
+      5 \cdot 1 + 0 \cdot 0 & 5 \cdot 2 + 0 \cdot 1
+    \end{bmatrix}
+    $
+
+    $B \cdot A = 
+    \begin{bmatrix}
+      4 & 7 \\
+      5 & 10 
+    \end{bmatrix}
+    $
+\end{center}
+
+Portanto $ A \cdot B \neq B \cdot A $ e por isso a propriedade comutativa não é válida.
+\newpage
+
+\section*{Questão 2 - Determinante de Matrizes}
+  {\bfseries Dado uma Matriz 
+  $A
+  \begin{bmatrix}
+    4 & 7\\
+    -1 & 5
+  \end{bmatrix}$
+  , sendo $A^t$ sua transposta, qual o determinante da matriz $A.A^t$? 
+  }
+
+  \section*{Resposta}
+    Multiplicação das Matrizes: \\
+    \begin{center}
+      $A.A^t = 
+        \begin{bmatrix}
+          4 & 7\\
+          -1 & 5
+        \end{bmatrix} 
+        \cdot
+        \begin{bmatrix}
+          4 & -1 \\
+          7 & 5
+        \end{bmatrix}
+      $
+      
+      $A.A^t = 
+        \begin{bmatrix}
+          4 \cdot 4 + 7 \cdot 7 & 4 \cdot (-1) + 7 \cdot 5 \\
+          (-1) \cdot 4 + 5 \cdot 7 & (-1) \cdot (-1) + 5 \cdot 5
+        \end{bmatrix}
+      $
+
+      $A.A^t = 
+        \begin{bmatrix}
+          65 & 31 \\
+          31 & 26
+        \end{bmatrix}
+      $
+    \end{center}
+    Buscando a determinante:
+
+    \begin{center}
+      $Det(A.A^t)= 65 \cdot 26 - 31 \cdot 31$  \\
+      $Det(A.A^t) = 1690 - 961 $ \\
+      $Det(A.A^t) = 729$
+    \end{center}
+
+\section*{Questão 3 - Produto Interno}
+{\bfseries Cálculo o valor do produto interno entre os vetores $ 
+\vec{x} = (3,1,4)$ 
+e $ \vec{y} = (6,0,2)$.
+
+\section*{Resposta}
+\begin{center}
+  $\vec{x} \cdot \vec{y} = (3,1,4) \cdot (6,0,2) $ \\
+  $\vec{x} \cdot \vec{y} = 3 \cdot 6 + 1 \cdot 0 + 4 \cdot 2$ \\
+  $\vec{x} \cdot \vec{y} = 18 + 0 + 8$ \\
+  $\vec{x} \cdot \vec{y} = 26$
+\end{center}
+\newpage
+\section*{Question 4 - Probabilidade}
+{\bfseries 
+  No jogo de RPG (Role Playing Game), os jogadores utilizam diversos dados com várias lados que variam entre 4, 6, 8, 10, 12 e 20 faces. Essa variação no número de lados serve para controlar o grau de aleatoriedade e equilibrar as regras do sistema de jogo.\\
+  Em uma partida entre amigos, um jogador precisa matar um monstro que tem 35 pontos de defesa. Esse jogador terá que jogar o dado de 20 lados duas vezes.\\
+  Qual a Probabilidade desse jogador tirar mais que 35 pontos e matar o monstro?
+  }
+
+  \section*{Resposta}
+
+  Fórmula:
+  \newline
+  \begin{center}
+  $P = \dfrac{\text{soma da possibilidades dos dados}}{\text{quantidade de combinações máximas dos dois dados}}$ 
+  $= \dfrac{S}{J}$
+  \newline
+\end{center}
+
+
+Possibilidades de vencer:
+
+\begin{itemize}
+  \item \textit Se dado 1 tirar 16, dado 2 pode tirar 20;
+  \item \textit Se dado 1 tirar 17, dado 2 pode tirar 20 ou 19;
+  \item \textit Se dado 1 tirar 18, dado 2 pode tirar 20, 19 ou 18;
+  \item \textit Se dado 1 tirar 19, dado 2 pode tirar 20, 19, 18 ou 17;
+  \item \textit Se dado 1 tirar 20, dado 2 pode tirar 20, 19, 18, 17 ou 16;
+  
+\end{itemize}
+
+Soma possibilidades do dado 2.  
+\begin{center}
+  $S = [1 + 2 + 3 + 4 + 5]$ \\
+  $S = 15$
+\end{center}
+Quantidade máxima de possibilidades dos dois dados.
+\begin{center}
+  $J = 20 \cdot 20 $ \\
+  $J = 400$
+\end{center} 
+Probabilidades:
+
+\begin{center}
+  $P = \dfrac{S}{J}$
+  $ = \dfrac{15}{400}$
+  $ = \dfrac{3}{80}$
+\end{center}
+\newpage
+\section*{Questão 5 - Probabilidade Condicional}
+{\bfseries Em outra rodada da mesma partida de RPG do exercício anterior, o jogador com os dados pode ganhar um item muito valioso para seu personagem. Porém, para que isso ocorra, ele precisa jogar o dado de 6 lados e tirar um número impar ou maior que dois. \\
+Quais são as probabilidades do jogador ganhar esse item?}
+
+\section*{Resposta}
+Evento $A$ - Tirar o número ímpar.
+\newline
+\begin{center}
+  $P(A) = \dfrac{\text{números ímpares do dado}}{\text{quantidade de faces do dado}}$
+
+  $P(A) = \dfrac{3}{6}$\\
+\end{center}
+
+Evento $B$ - Tirar número maior que 2.
+\newline
+\begin{center}
+  $P(B) = \dfrac{\text{quantidade de números possíveis}}{\text{quantidade de faces do dado}}$\\
+
+  $P(B) = \dfrac{4}{6}$\\
+\end{center}
+
+Identificando os elementos comuns entre os eventos A e B.
+
+\begin{center}
+  $A \cap B = $ \{3,5\}  \\
+  $P(A \cap B) = \dfrac{2}{6} $
+\end{center}
+
+Cálculo da probabilidade dos eventos pela \textit{lei da adição}.
+
+\begin{center}
+  $P(A \cap B) = P(A)+P(B)-P(A \cup B) $\\
+  $P(A \cap B) = \dfrac{3}{6} + \dfrac{4}{6} + \dfrac{2}{6} $ \\
+  $P(A \cap B) =  \dfrac{5}{6} $
+\end{center}
+\newpage
+\section*{Questão 6 - Teorema de Bayes}
+{\bfseries Uma empresa produz 4\% de peças defeituosas. O controle de qualidade da empresa é realizado em duas
+etapas independentes. A primeira etapa acusa uma peça defeituosa com 80\% de probabilidade de acerto. A segunda etapa acusa uma peça defeituosa com 90\% de probabilidade.\\
+Calcule a probabilidade de que:
+
+\begin{enumerate}[label=\alph*]
+  \item Uma peça defeituosa passe pelo controle de qualidade.
+  \item Ao adquirir uma peça produzida por esta empresa, ela seja defeituosa.
+\end{enumerate}
+
+\section*{Resposta}
+
+Probabilidade de que a peça defeituosa passe pelo controle de qualidade.
+
+\begin{center}
+  $P[ ({E_1} | D) \cap ({E_2} | D) ] = 0.20 \cdot 0.10 = 0.02$
+\end{center}
+
+Probabilidade de que seja defeituosa a peça adquirida desta empresa:
+\begin{center}
+  $P(D) = \text{4\% de 2\%} = 0.04 \cdot 0.02 = 0.00008 \text{ ou } 0.08\%$
+\end{center}
+
+\end{document}
