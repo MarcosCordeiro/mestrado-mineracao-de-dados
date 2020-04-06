@@ -61,6 +61,12 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/Lista_Exercicios_cap4.aux
 INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/Lista_Exercicios_cap4.aux
 OUTPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/Lista_Exercicios_cap4.aux
@@ -114,9 +120,25 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/Dendrograma.png
 INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/Dendrograma.png
 INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/Dendrograma.png
+INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/Figura-5-19.png
+INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/Figura-5-19.png
+INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/Figura-5-19.png
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
+INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/tab-5-2-3.png
+INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/tab-5-2-3.png
+INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/tab-5-2-3.png
+INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/arvore-decisao.png
+INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/arvore-decisao.png
+INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/arvore-decisao.png
+INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/tab-5-2-4.png
+INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/tab-5-2-4.png
+INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/tab-5-2-4.png
 INPUT /Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap04/Lista_Exercicios_cap4.aux
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb

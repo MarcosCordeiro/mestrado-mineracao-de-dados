@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.16)  3 APR 2020 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.16)  5 APR 2020 22:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -184,33 +184,55 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+\multirow@colwidth=\skip50
+\multirow@cntb=\count109
+\multirow@dima=\skip51
+\bigstrutjot=\dimen126
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen127
+\captionmargin@=\dimen128
+\captionwidth=\dimen129
+\caption@tempdima=\dimen130
+\caption@indent=\dimen131
+\caption@parindent=\dimen132
+\caption@hangindent=\dimen133
+)
+\c@caption@flags=\count110
+\c@ContinuedFloat=\count111
+Package caption Info: float package is loaded.
 ) (/Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap05/Lista_Exercicios_cap5.aux)
 \openout1 = `Lista_Exercicios_cap5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count109
-\scratchdimen=\dimen126
+\scratchcounter=\count112
+\scratchdimen=\dimen134
 \scratchbox=\box34
-\nofMPsegments=\count110
-\nofMParguments=\count111
+\nofMPsegments=\count113
+\nofMParguments=\count114
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count112
-\MPscratchDim=\dimen127
-\MPnumerator=\count113
-\makeMPintoPDFobject=\count114
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen135
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
 \everyMPtoPDFconversion=\toks29
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -279,48 +301,67 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 <mackenzie-logo.png, id=1, 43.0618pt x 43.0618pt>
 File: mackenzie-logo.png Graphic file (type png)
 <use mackenzie-logo.png>
-Package pdftex.def Info: mackenzie-logo.png  used on input line 19.
+Package pdftex.def Info: mackenzie-logo.png  used on input line 21.
 (pdftex.def)             Requested size: 28.45274pt x 28.45305pt.
 
-Overfull \hbox (35.89302pt too wide) in paragraph at lines 17--29
+Overfull \hbox (35.89302pt too wide) in paragraph at lines 19--31
 [][] |  $[]$ $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--29
+Underfull \hbox (badness 10000) in paragraph at lines 19--31
 
  []
 
-<tab-5-2-3.png, id=3, 418.56375pt x 316.68312pt>
-File: tab-5-2-3.png Graphic file (type png)
-<use tab-5-2-3.png>
-Package pdftex.def Info: tab-5-2-3.png  used on input line 60.
-(pdftex.def)             Requested size: 227.62204pt x 172.21439pt.
-[1
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 71.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
+ [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap05/mackenzie-logo.png>]
-<tab-5-2-4.png, id=15, 564.1075pt x 452.18938pt>
+<Figura-5-19.png, id=14, 431.6125pt x 364.86313pt>
+File: Figura-5-19.png Graphic file (type png)
+<use Figura-5-19.png>
+Package pdftex.def Info: Figura-5-19.png  used on input line 83.
+(pdftex.def)             Requested size: 284.52756pt x 240.53203pt.
+ [2 </Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap05/Figura-5-19.png>]
+<tab-5-2-3.png, id=21, 418.56375pt x 316.68312pt>
+File: tab-5-2-3.png Graphic file (type png)
+<use tab-5-2-3.png>
+Package pdftex.def Info: tab-5-2-3.png  used on input line 155.
+(pdftex.def)             Requested size: 227.62204pt x 172.21439pt.
+<arvore-decisao.png, id=22, 1691.31876pt x 526.96875pt>
+File: arvore-decisao.png Graphic file (type png)
+<use arvore-decisao.png>
+Package pdftex.def Info: arvore-decisao.png  used on input line 162.
+(pdftex.def)             Requested size: 483.69684pt x 150.70227pt.
+<tab-5-2-4.png, id=23, 564.1075pt x 452.18938pt>
 File: tab-5-2-4.png Graphic file (type png)
 <use tab-5-2-4.png>
-Package pdftex.def Info: tab-5-2-4.png  used on input line 75.
+Package pdftex.def Info: tab-5-2-4.png  used on input line 175.
 (pdftex.def)             Requested size: 227.62204pt x 182.4595pt.
- [2 </Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap05/tab-5-2-3.png> </Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap05/tab-5-2-4.png>] (/Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap05/Lista_Exercicios_cap5.aux) ) 
+ [3 </Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap05/tab-5-2-3.png> </Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap05/arvore-decisao.png>] [4 </Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap05/tab-5-2-4.png>] [5] [6] (/Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap05/Lista_Exercicios_cap5.aux) ) 
 Here is how much of TeX's memory you used:
- 4150 strings out of 492616
- 57728 string characters out of 6129481
- 152078 words of memory out of 5000000
- 8006 multiletter control sequences out of 15000+600000
- 6923 words of font info for 25 fonts, out of 8000000 for 9000
+ 5330 strings out of 492616
+ 78990 string characters out of 6129481
+ 180072 words of memory out of 5000000
+ 9168 multiletter control sequences out of 15000+600000
+ 8240 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,35p,770b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "/Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap05/Lista_Exercicios_cap5.pdf" (2 pages, 403063 bytes).
+ 41i,12n,39p,770b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "/Users/Marcos/Desktop/Mestrado/mestrado-mineracao-de-dados/Listas Exercicios/cap05/Lista_Exercicios_cap5.pdf" (6 pages, 657946 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
