@@ -1,0 +1,112 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage[brazil]{babel}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Bot vs Wiki}
+
+\author{\IEEEauthorblockN{Marcos Cordeiro de Brito Jr}
+\IEEEauthorblockA{\textit{Programa de Pós Graduação em Engenharia Elétrica e Computação (PPGEEC)} \\
+\textit{Universidade Presbiteriana Mackenzie}\\
+São Paulo, Brasil }
+}
+
+\maketitle
+
+\begin{abstract}
+Este documento é um resumo sobre a técnica de Mineração de Texto. Será apresentado sua definição, processos, técnicas e aplicações práticas dos estudos.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Mineração de Texto, Mineração de Dados, Conhecimento
+\end{IEEEkeywords}
+
+\section{Introdução}
+A técnica de mineração de texto tem por objetivo extrair informações  analisando grandes volumes de dados não estruturados e semi-estruturados utilizando algorítimos computacionais. Essas análises buscam padrões, agrupamentos, regularidades e tendências para conseguir identificar conhecimentos que possam trazer algum  valor para a análise.
+
+Qualquer área pode se beneficiar das técnicas de mineração de texto para conseguir compreender melhor o valor de grandes volumes de informações, onde as formas comuns de buscas ou leitura do conteúdo se tornam inviáveis nas maneiras convencionais.
+
+Esse documento tem por objetivo descrever de forma sucinta e resumida a técnica de mineração de texto e sua organização está disponível da seguinte maneira: A Seção \ref{definicao} descreve de maneira geral, através de referências acadêmicas, as definições sobre mineração de texto. Na Seção \ref{tecnicas} são mostrados as etapas do processo e algumas técnicas e na Seção \ref{aplicacoes}, algumas aplicações práticas dessa técnica.
+
+\section{Definição de Mineração de Texto}\label{definicao}
+
+Mineração de textos é um conjunto de métodos
+usados para navegar, organizar, achar e descobrir
+informação em bases textuais \cite{art1}. 
+
+O termo vem ganhando popularidade durante os anos conforme o número de pesquisas avançam.
+Em um estudo publicado em 2015 pela \textit{Emerald Insight} foi analisado a quantidade de citações e estudos sobre o termo \textit{Text Mining (Mineração de Texto)} na base de dados \textit{Web of Science} do Departamento e Biblioteca de Ciência da Informação da Universidade de \textit{Savitribai Phule Pune} na \textit{India} \cite{art6}. 
+
+Durante os anos de 1999 e 2013 houveram 8102 citações do termo em 987 publicações. Entre os países com maiores contribuições estão os Estados Unidos com 384 \textit{papers} publicados, seguido da China com 98 e Taiwan com 74. Comparando entre as universidades com os maiores números de pesquisas estão: \textit{Columbia University} e \textit{Univerity Arizona} dos Estados Unidos e \textit{Nanyang Technological University} de Singapura.
+
+Com o grande aumento do volume de dados e com constante crescimento a cada ano, impulsionado principalmente pelas redes sociais, a descoberta de conhecimento tem se tornado cada vez mais difícil e cada vez mais importante. Para auxiliar nessa exploração, surgiram técnicas de análise de dados que ajudam a navegar nesse oceano infinito de informações.
+
+Uma dessas técnicas é conhecida como \textit{Descoberta de Conhecimento Apoiado por Computador (Knowledge Discovery - KD)}. Existem duas abordagens dentro dessa área chamadas de \textit{Descoberta de Conhecimento em Dados Estruturados (Knowledge Discovery in Databases - KDD)} e \textit{Descoberta de Conhecimento em Dados não Estruturados (Knowledge Discovery from Text - KDT)}, onde essa segunda abordagem, \textit{KDT}, tem uma forte relação com a mineração de texto por depender de seus resultados para complementar outros processos como a clusterização, categorização, análises textuais entre outras \cite{art2}.
+
+
+\section{Processo e Técnicas de Mineração de Texto}\label{tecnicas} 
+
+Para extrair o conhecimento a partir da base de dados com textos e informações não estruturadas, é preciso seguir um processo com algumas etapas e utilizar de técnicas para conseguir chegar ao resultado. 
+
+As etapas de processamento são dividas da seguinte forma: coleta, pré-processamento, indexação, mineração e análise \cite{art1}. Cada uma delas está melhor explicada logo abaixo:
+\begin{itemize}
+    \item \textbf{Coleta:} 
+    Constitui na formação da base de documentos podendo ser através de informações de bases de histórico, robôs de \textit{crawling} ou outras fontes de dados que façam parte do contexto que será explorado.
+    \item \textbf{Pré-Processamento:} Preparação dos dados através da aplicação de técnicas como o \textit{Processamento de Linguagem Natural (Natural Language Processing - NLP)} \cite{art10}.
+    \item \textbf{Indexação:} É feito uma preparação através de palavras chaves para ter um melhor desempenho na busca dos documentos armazenados.
+    \item \textbf{Mineração:} Processo de identificação de
+    padrões válidos, novos, potencialmente úteis e compreensíveis disponíveis nos dados \cite{art9}. 
+    \item \textbf{Análise:} Análise humana para validar se o conhecimento extraído trouxe o valor esperado.
+\end{itemize} 
+
+Essa é uma das abordagens possíveis para a mineração de texto. Outros processos podem se tornar mais complexos ou mais refinadas dependendo da base de dados que será analisado e do resultado esperado. Algumas outras aplicações podem ser vistas em \cite{art2,art9,art10}.
+
+\section{Aplicações Práticas}\label{aplicacoes}
+
+A aplicação das técnicas de mineração de dados e mineração de textos são de grandes utilidades para diversas áreas. Havendo a disponibilidade da base de dados para ser analisado, o processo pode ajudar a trazer o conhecimento que o cliente esta buscando e auxiliar na tomada de decisões estratégicas ou na análise dos seus resultados.
+
+Como amostra do poder de alcance dessas técnicas, veremos algumas aplicações práticas que mostram como elas foram utilizadas por áreas distintas para conseguirem se beneficiar dos resultados obtidos.
+
+
+\subsection{Industria}
+O sistema de solução de problemas \textit{CASSIOPEE}, desenvolvido como parte de uma parceria entre a empresa americana \textit{General Electric} e a francesa \textit{SNECMA (Société Nationale d'Étude et de Construction de Moteurs d'Aviation)} foi aplicado por três grandes companhias aéreas europeias para diagnosticar e prever problemas para o Boeing 737, resultando num \textit{cluster} com famílias de falhas.
+
+O sistema recebeu o prêmio de inovação \textit{Manago and Auriol} em 1996 \cite{art9}.
+
+\subsection{Educação}
+Três pesquisadores da Universidade de \textit{Limerick}, na Irlanda, utilizaram a base de dados de uma media social muito conhecida de perguntas e respostas voltado para programação de computadores, o \textit{StackOverflow}, para tentarem identificar as maiores dificuldades e desafios encontrados pelos programadores. 
+
+Os resultados foram diversos agrupamentos com uma gama enorme de informações sobre as perguntas e respostas analisadas. Para citar algumas, foram listados artigos com maiores números de visualizações, termos mais buscados e categoria com maior número de citações.
+
+Como alguns dos exemplos desse estudo, a categoria mais buscada foi  \textit{Software design patterns}, o título com mais frequência encontrada foi \textit{Same-origin policy} e o termo mais pesquisado dentro da categoria de Sistemas Operacionais foi \textit{regular expressions} \cite{art3}.
+
+Esse estudo pode muito bem ser aplicado a qualquer outra base de dados do tipo perguntas e respostas, analisando informações sobre outras disciplinas que estudantes de outra áreas utilizam, mapeando suas maiores dificuldades e trabalhando em possíveis soluções e melhoria na educação.
+
+\subsection{Inteligência Competitiva}
+Esse caso mostra como foram utilizadas as técnicas de \textit{KDT} e \textit{KDD} para empresas conseguirem uma abordagem pró-ativa em relação ao mercado aplicado a Inteligência Competitiva.
+
+Com base em informações internas das companhias e dados abertos dos concorrentes, foi possível mapear características que ajudaram a empresa na tomada de decisão importantes, fazendo ela se posicionar mais estrategicamente em relação aos competidores.
+
+Para isso, a utilização das duas técnicas foram indispensáveis, já que os dados analisados foram de um volume muito grande e com crescimento constante, tendo que ser atualizados e reavaliados com certa frequência \cite{art7}.
+
+\subsection{Redes Sociais}
+As redes sociais são os grandes responsáveis pelo crescimento da quantidade de informações disponíveis nos dias atuais. A partir de seus dados, é possível retirar informações valiosas que ajudam empresas em seus negócios. Desde a venda de produtos, comportamento de consumo, perfil social e até mesmo o que você come, ou vai comer pode ser analisado através das suas redes sociais.
+
+Seguindo essa tendência, três pesquisadores de universidades americanas analisaram dados do Twitter e do Facebook das três maiores empresas de Pizza dos Estados Unidos: Pizza Hut, Domino's Pizza e Papa John's Pizza \cite{art11}.
+
+O estudo mostrou como as medias sociais podem influenciar na tomada de decisão dos clientes de escolher entre uma empresa e outra. Toda essa análise foi feita através dos dados não estruturados como os \textit{posts}, \textit{likes}, comentários e seguidores para poder abordar o usuário da melhor maneira possível e transformando a capitação em resultado.  Tudo isso através da coleta dos dados e utilização da mineração de texto.
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{referencia}
+
+\end{document}
